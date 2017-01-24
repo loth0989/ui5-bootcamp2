@@ -1,0 +1,30 @@
+<!--<mvc:View controllerName="webapp.controller.app" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"-->
+<!--	xmlns="sap.m">-->
+<!--	<App>-->
+<!--		<pages>-->
+<!--			<Page title="{i18n>title}">-->
+<!--				<content></content>-->
+<!--			</Page>-->
+<!--		</pages>-->
+<!--	</App>-->
+<!--</mvc:View>-->
+
+<!--<mvc:View-->
+<!--   xmlns="sap.m"-->
+<!--   xmlns:mvc="sap.ui.core.mvc">-->
+<!--   <Text text="Hello World"/>-->
+<!--</mvc:View>-->
+
+<mvc:View
+	controllerName="webapp.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Text text="Username"/>
+	<!--<Input type="Text"/>-->
+	<Input type="Text" id="username"/>
+	<Text text="Password"/>
+	<!--<Input type="Password"/>-->
+	<Input type="Password" id="password"/>
+	<Button text="login" press="onLoginPress"/>
+</mvc:View>
+
